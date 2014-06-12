@@ -52,6 +52,7 @@ public class MainActivity extends ActionBarActivity implements TextToSpeech.OnIn
 		}
 		super.onDestroy();
 	}
+	// I am not using this
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -59,7 +60,7 @@ public class MainActivity extends ActionBarActivity implements TextToSpeech.OnIn
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
-
+	// I am not using this 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// Handle action bar item clicks here. The action bar will
@@ -71,7 +72,7 @@ public class MainActivity extends ActionBarActivity implements TextToSpeech.OnIn
 		}
 		return super.onOptionsItemSelected(item);
 	}
-
+	// Not using this either
 	/**
 	 * A placeholder fragment containing a simple view.
 	 */
